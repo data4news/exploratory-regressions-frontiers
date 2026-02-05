@@ -56,7 +56,7 @@ pip install -r requirements.txt
 
 If you don't have R installed, install it:
 
-* **macOS:** `brew install r`
+* **macOS:** Install [Homebrew](https://brew.sh/), then run `brew install r`
 * **Other platforms:** Download from [CRAN](https://cran.r-project.org/).
 
 Then, install required R packages:
