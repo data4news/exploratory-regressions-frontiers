@@ -54,7 +54,14 @@ pip install -r requirements.txt
 
 #### 3. Install R and R Packages
 
-If you don't have R installed, download it from [CRAN](https://cran.r-project.org/).
+If you don't have R installed:
+
+**macOS:**
+```bash
+brew install r
+```
+
+**Other platforms:** Download from [CRAN](https://cran.r-project.org/).
 
 Install required R packages:
 
