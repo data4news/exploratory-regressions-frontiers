@@ -1,0 +1,17 @@
+# Core data analysis packages
+pandas>=2.0.0
+numpy>=1.24.0
+matplotlib>=3.7.0
+openpyxl>=3.1.0
+
+# R integration
+rpy2>=3.5.0
+
+# Jupyter notebook
+jupyter>=1.0.0
+ipython>=8.0.0
+
+# Note: This notebook also requires R to be installed with the following packages:
+# - flexplot
+# - tidyverse
+# Install R packages with: R -e "install.packages(c('flexplot', 'tidyverse'))"
