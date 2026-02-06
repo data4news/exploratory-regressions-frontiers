@@ -33,8 +33,8 @@ We'll comapare these results to demographics data to answer the following questi
 #### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/nyc-dem-primary.git
-cd nyc-dem-primary
+git clone git@github.com:data4news/exploratory-regressions-frontiers.git
+cd exploratory-regressions-frontiers
 ```
 
 #### 2. Set Up Python Environment
@@ -52,7 +52,20 @@ Install Python dependencies:
 pip install -r requirements.txt
 ```
 
-#### 3. Install R and R Packages
+#### 3. Set Up Census API Key
+
+This project uses the US Census API to fetch demographic data. You'll need to obtain a free API key:
+
+1. Request a Census API key at [https://api.census.gov/data/key_signup.html](https://api.census.gov/data/key_signup.html)
+2. Create a `.env` file in the project root directory:
+
+```bash
+echo "CENSUS_API_KEY=your_api_key_here" > .env
+```
+
+Replace `your_api_key_here` with the API key you received via email.
+
+#### 4. Install R and R Packages
 
 If you don't have R installed, install it:
 
